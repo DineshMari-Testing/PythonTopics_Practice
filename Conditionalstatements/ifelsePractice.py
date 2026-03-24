@@ -89,4 +89,15 @@ else:
     print ("z is smallest :" , z)
 
 
+#Find the smallest of three numbers
+x = int(input("Enter the x = "))
+y = int(input("Enter the y = "))
+z = int(input("Enter the z = "))
+
+if x <= y and x<=z:
+    print ("x is smallest :" , x)
+elif y <= z and y <= x:
+    print ("y is smallest :" , y)
+else:
+    print ("z is smallest :" , z)
 
