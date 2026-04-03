@@ -9,7 +9,7 @@ else:
     print("Condition False")'''
 
 
-age = 20
+'''age = 20
 if age > 18:
     pass
 else:
@@ -21,4 +21,10 @@ def check_number(num):
     else:
         return "Negative"
 
-print(check_number(5))
+print(check_number(5))'''
+
+fruits = ["apple", "banana", "cherry"]
+for i in fruits:
+    if i == "cherry":
+        break
+    print(i)
