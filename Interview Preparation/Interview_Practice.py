@@ -92,3 +92,68 @@ else:
     else:
         print("Prime number")
 
+
+
+#swap two numbers
+a = 10
+b = 20
+
+a,b = b,a
+print(a,b)
+
+#Finding missing numbers
+
+arr = [1,2,3,5]
+
+for i in range(1,n+1):
+    if i not in arr:
+        print(i)
+
+
+n = 5
+expected = n*(n+1)//2
+actual = sum(arr)
+print(expected-actual)
+
+
+#fibonacci series
+n = 10
+
+a=0
+b=1
+
+for i in range(n):
+    print(a,end=", ")
+    c = a + b
+    a = b
+    b = c
+print()
+
+
+#fibonacci series number less than 50
+a=0
+b=1
+
+while a<50:
+    print(a,end=", ")
+    c = a + b
+    a = b
+    b = c
+print()
+
+
+#odd or even number
+num = int(input("Enter a number: "))
+
+if num %2==0:
+    print("Even")
+else:
+    print("Odd")
+
+arr = [1,2,3,4,5,6]
+for num in arr:
+    if num%2 != 0:
+        print(num)
+
+
+
